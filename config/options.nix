@@ -32,12 +32,11 @@
     relativenumber = true; # Relative line numbers
     ruler = false; # Disable the default ruler
     scrolloff = 4; # Lines of context
-    # TODO
-    # sessionoptions = { "buffers" "curdir" "tabpages" "winsize" "help" "globals" "skiprtp" "folds"};
+    sessionoptions = [ "buffers" "curdir" "tabpages" "winsize" "help" "globals" "skiprtp" "folds"];
     shiftround = true; # Round indent
     shiftwidth = 2; # Size of an indent
-    # TODO
-    # shortmess:append { W = true, I = true, c = true, C = true }
+		# TODO
+    # "shortmess:append" = { W = true; I = true; c = true; C = true; };
     showmode = false; # Dont show mode since we have a statusline
     sidescrolloff = 8; # Columns of context
     signcolumn = "yes"; # Always show the signcolumn, otherwise it would shift the text each time
@@ -49,8 +48,7 @@
     splitright = true; # Put new windows right of current
     tabstop = 2; # Number of spaces tabs count for
     termguicolors = true; # True color support
-    # TODO
-    # timeoutlen = vim.g.vscode and 1000 or 300 # Lower than default (1000) to quickly trigger which-key
+    timeoutlen = 300; # Lower than default (1000) to quickly trigger which-key
     undofile = true;
     undolevels = 10000;
     updatetime = 200; # Save swap file and trigger CursorHold
