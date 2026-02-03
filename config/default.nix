@@ -4,6 +4,7 @@
     ./bufferline.nix
     ./lsp.nix
     ./lualine.nix
+    ./options.nix
     ./treesitter.nix
   ];
 
