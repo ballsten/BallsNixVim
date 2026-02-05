@@ -1,4 +1,11 @@
 {
+  # set globals for leader
+  globals = {
+    mapleader = " ";
+    maplocalleader = " ";
+  };
+
+  # set options
   opts = {
     autowrite = true;
     completeopt = "menu,menuone,noselect";
@@ -32,10 +39,19 @@
     relativenumber = true; # Relative line numbers
     ruler = false; # Disable the default ruler
     scrolloff = 4; # Lines of context
-    sessionoptions = [ "buffers" "curdir" "tabpages" "winsize" "help" "globals" "skiprtp" "folds"];
+    sessionoptions = [
+      "buffers"
+      "curdir"
+      "tabpages"
+      "winsize"
+      "help"
+      "globals"
+      "skiprtp"
+      "folds"
+    ];
     shiftround = true; # Round indent
     shiftwidth = 2; # Size of an indent
-		# TODO
+    # TODO
     # "shortmess:append" = { W = true; I = true; c = true; C = true; };
     showmode = false; # Dont show mode since we have a statusline
     sidescrolloff = 8; # Columns of context
