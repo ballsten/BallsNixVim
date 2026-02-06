@@ -1,10 +1,4 @@
 {
-  # set globals for leader
-  globals = {
-    mapleader = " ";
-    maplocalleader = "\\";
-  };
-
   # set options
   opts = {
     autowrite = true;

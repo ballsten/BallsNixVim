@@ -1,5 +1,11 @@
 { pkgs, ... }:
 {
+  # set globals for leader
+  globals = {
+    mapleader = " ";
+    maplocalleader = "\\";
+  };
+
   # Import all your configuration modules here
   imports = [
     ./bufferline.nix
@@ -9,6 +15,7 @@
     ./options.nix
     ./snacks.nix
     ./treesitter.nix
+    ./which-key.nix
   ];
 
   # set color scheme
