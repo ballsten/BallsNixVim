@@ -2,7 +2,7 @@
   # set globals for leader
   globals = {
     mapleader = " ";
-    maplocalleader = " ";
+    maplocalleader = "\\";
   };
 
   # set options

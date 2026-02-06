@@ -16,6 +16,7 @@
 
   # install extra packages
   extraPackages = with pkgs; [
+    fd
     ripgrep
   ];
 }

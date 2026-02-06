@@ -2,6 +2,9 @@
   plugins.snacks = {
     enable = true;
     settings = {
+      bigfile = {
+        enabled = true;
+      };
       dashboard = {
         enabled = true;
         preset = {
@@ -41,6 +44,12 @@
               action = ":lua Snacks.dashboard.pick('oldfiles')";
             }
             {
+              icon = " ";
+              key = "H";
+              desc = "Check Health";
+              action = ":checkhealth";
+            }
+            {
               icon = " ";
               key = "q";
               desc = "Quit";
@@ -52,6 +61,51 @@
           { section = "header"; }
           { section = "keys"; }
         ];
+      };
+      explorer = {
+        replace_netrw = true;
+      };
+      indent = {
+        enabled = true;
+      };
+      notifier = {
+        enabled = true;
+      };
+      picker = {
+        win = {
+          input = {
+            keys = {
+              "<a-c>" = [
+                "toggle_cwd"
+                {
+                  mode = [
+                    "n"
+                    "i"
+                  ];
+                }
+              ];
+              "<a-s>" = [
+                "flash"
+                {
+                  mode = [
+                    "n"
+                    "i"
+                  ];
+                }
+              ];
+              "s" = [ "flash" ];
+              "<a-t>" = [
+                "trouble_open"
+                {
+                  mode = [
+                    "n"
+                    "i"
+                  ];
+                }
+              ];
+            };
+          };
+        };
       };
     };
   };
