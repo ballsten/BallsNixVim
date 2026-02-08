@@ -389,7 +389,7 @@
     {
       mode = "n";
       key = "<leader>xl";
-      action = "function()
+      action.__raw = "function()
         local success, err = pcall(vim.fn.getloclist(0, { winid = 0 }).winid ~= 0 and vim.cmd.lclose or vim.cmd.lopen)
         if not success and err then
           vim.notify(err, vim.log.levels.ERROR)
@@ -404,7 +404,7 @@
     {
       mode = "n";
       key = "<leader>xq";
-      action = "function()
+      action.__raw = "function()
           local success, err = pcall(vim.fn.getqflist({ winid = 0 }).winid ~= 0 and vim.cmd.cclose or vim.cmd.copen)
           if not success and err then
             vim.notify(err, vim.log.levels.ERROR)
@@ -480,7 +480,7 @@
     {
       mode = "n";
       key = "<leader>uI";
-      action = "function() vim.treesitter.inspect_tree() vim.api.nvim_input(\"I\") end";
+      action.__raw = "function() vim.treesitter.inspect_tree() vim.api.nvim_input(\"I\") end";
       options = {
         desc = "Inspect Tree";
       };
