@@ -11,6 +11,7 @@
     ./bufferline.nix
     ./flash.nix
     ./keymaps.nix
+    ./gitsigns.nix
     ./lsp.nix
     ./lualine.nix
     ./options.nix
