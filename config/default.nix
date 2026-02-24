@@ -17,6 +17,7 @@
     ./options.nix
     ./snacks.nix
     ./treesitter.nix
+    ./ts-comments.nix
     ./which-key.nix
   ];
 
