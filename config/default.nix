@@ -8,6 +8,7 @@
 
   # Import all your configuration modules here
   imports = [
+    ./blink-cmp.nix
     ./bufferline.nix
     ./flash.nix
     ./keymaps.nix
