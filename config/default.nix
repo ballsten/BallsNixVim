@@ -10,6 +10,7 @@
   imports = [
     ./blink-cmp.nix
     ./bufferline.nix
+    ./conform.nix
     ./flash.nix
     ./keymaps.nix
     ./gitsigns.nix
@@ -29,5 +30,6 @@
   extraPackages = with pkgs; [
     fd
     ripgrep
+    nixfmt
   ];
 }
