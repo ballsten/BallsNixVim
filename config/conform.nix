@@ -16,4 +16,18 @@
       };
     };
   };
+
+  keymaps = [
+    {
+      mode = [
+        "n"
+        "v"
+      ];
+      key = "<leader>cF";
+      action.__raw = "function() require('conform').format = { formatters = { 'injected' }, timeout_ms = 3000 } end";
+      options = {
+        desc = "Format injected Language";
+      };
+    }
+  ];
 }
