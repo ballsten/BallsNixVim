@@ -17,6 +17,7 @@
     ./lsp.nix
     ./lualine.nix
     ./mini.nix
+    ./noice.nix
     ./options.nix
     ./snacks.nix
     ./treesitter.nix
