@@ -16,6 +16,7 @@
     ./gitsigns.nix
     ./lsp.nix
     ./lualine.nix
+    ./mini.nix
     ./options.nix
     ./snacks.nix
     ./treesitter.nix
