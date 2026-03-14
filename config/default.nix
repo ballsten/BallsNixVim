@@ -20,7 +20,9 @@
     ./noice.nix
     ./options.nix
     ./snacks.nix
+    ./todo-comments.nix
     ./treesitter.nix
+    ./trouble.nix
     ./ts-comments.nix
     ./which-key.nix
   ];
